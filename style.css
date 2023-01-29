@@ -8,19 +8,21 @@
 }
 
 body{
-  background: #e0eafc;
+  /* background: #e0eafc; */
+  background: #e0f3fc;
 }
 
 .upload-section{
   position: relative;
   margin: auto;
-  max-width: 500px;
+  max-width: 800px;
   width: 60%;
   padding: 30px;
   background: #ffffff;
   border-radius: 20px;
-  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.05);
 }
+
 
 .upload-section .top{
   display: flex;
@@ -67,6 +69,9 @@ form{
   font-weight: 500;
   position: relative;
   background: #dfe3f259;
+  box-shadow: 0 8px 32px 0 #dfe3f259;
+  backdrop-filter: blur( 11.5px );
+  -webkit-backdrop-filter: blur( 11.5px );
   display: flex;
   justify-content: center;
   align-items: center;
@@ -141,4 +146,83 @@ form .dragover{
   margin: 5px;
   text-align: center;
   font-size: 10px;
+}
+
+/* feature section */
+.section-1{
+  background-color:  #c2f1ff;
+}
+section span{
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.section-head{
+  margin-bottom: 60px;
+}
+
+.section-head h4{
+  position: relative;
+  padding: 0;
+  color: #5256ad;
+  line-height: 1;
+  letter-spacing: 0.3px;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: none;
+  margin-bottom: 30px;
+}
+
+.section-head h4 span{
+  font-weight: 700;
+  padding-bottom: 5px;
+  color: #000e7b;
+}
+
+.section-head p{
+  color: #818181;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.item{
+  background: #c2f1ff;
+  color: black;
+  text-align: left;
+  padding: 30px 25px;
+  justify-content: left;
+  box-shadow: 0 0 25px rgba(75, 75, 75, 0.07);
+  border-radius: 20px;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+.item:hover{
+  background: #5256ad;
+  box-shadow: 0 8 20px rgba(0, 0, 0, 0.02);
+  color: whitesmoke;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+.item .icon{
+  font-size: 30px;
+  margin-bottom: 5px;
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+}
+
+.item p{
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.item h6{
+  margin-bottom: 20px;
+  color: #000000;
 }
