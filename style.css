@@ -10,6 +10,8 @@
 body{
   /* background: #e0eafc; */
   background: #e0f3fc;
+  /* overflow: hidden; */
+  
 }
 
 #active{
@@ -22,33 +24,33 @@ body{
   margin-right: 10px ;
 }
 
-#home{
+.home{
   background: linear-gradient(rgba(17, 36, 90, 0.776),rgba(17, 36, 90, 0.8)), url(img.png);
-  min-height: 50vh;
+  min-height: 55vh;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   display: flex;
-  margin-bottom: -70px;
+  margin-bottom: -80px;
   align-items: center;
   color: aliceblue;
 }
 
-#home h1{
+.home h1{
   font-weight: 600;
 }
 
-#home p{
+.home p{
   max-width: 900px;
   margin: auto;
 }
 
 @media only screen and (max-width: 600px) {
-  #home h1{
+  .home h1{
     font-size: 20px;
     font-weight: 700;
   }
-  #home p{
+  .home p{
     font-size: 10px;
     max-width: 80%;
     margin: auto;
@@ -199,6 +201,23 @@ form .dragover{
 /* feature section */
 
 
+.tool-icon{
+  font-size: 30px;
+  padding: 2px;
+}
+
+.card-title{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.card-text{
+  font-size: 12px;
+}
+
+
+
+
 .section-1{
   background-color:  #c2f1ff;
 }
@@ -210,7 +229,8 @@ section span{
 }
 
 .section-head{
-  margin-bottom: 60px;
+  padding: 30px;
+  margin-bottom: 20px;
 }
 
 .section-head h4{
@@ -307,7 +327,7 @@ section span{
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  color: #5e5e5e;
+  color: #050505;
 }
 
 #footer .footer-top h4 {
