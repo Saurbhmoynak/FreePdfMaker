@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  /* background: #e0eafc; */
+  background: #00003d;
+  /* overflow: hidden; */
+
+}
+
+#active {
+  color: rgb(13, 15, 112);
+}
+
+.nav-link {
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-right: 10px;
+}
+
+#contact {
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  margin-top: 6%;
+  margin-bottom: 2rem;
+}
+
+
+.about-text h2 {
+  color: #54c9fff4;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 0.5 rem;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  width: 100%;
+  display: grid;
+  row-gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+  padding: 15px;
+  color: #0e007a;
+  background: #d4d4ff;
+  border-radius: 00.4rem;
+}
+
+
+.contact-form .send-btn {
+  width: 150px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 12px;
+  background: whitesmoke;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
+}
+
+.contact-form .send-btn:hover {
+  background: #23307a;
+  color: #fff;
+  transition: 0.3s all linear;
+}
+
+
+.team .member {
+  position: relative;
+  padding: 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: #e0f3fc;
+}
+
+.team-page {
+  background: #e0f3fc;
+  /* margin-top: 4%; */
+  padding: 30px 0;
+  overflow: hidden;
+}
+
+.section-title {
+  margin-top: 40px;
+  color: rgb(9, 0, 69);
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.team .member .teampic {
+  overflow: hidden;
+  width: 180px;
+  border-radius: 10%;
+}
+
+.team .member .member-info {
+  padding-left: 30px;
+}
+
+.team .member h4 {
+  font-size: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: darkblue;
+}
+
+.team .member span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 600;
+}
+
+.team .member span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: black;
+  bottom: 0;
+  left: 0;
+}
+
+.team .member p {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.team .member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+
+}
+
+.team .member .social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: #bae9ff;
+}
+
+.team .member .social a i {
+  color: rgb(0, 17, 113);
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.team .member .social a:hover {
+  background: #005983;
+}
+
+.team .member .social a i:hover {
+  color: #f5f5f5;
+}
+
+.team .member .social a+a {
+  margin-left: 8px;
+}
